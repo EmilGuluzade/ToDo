@@ -1,0 +1,47 @@
+body{
+    background-color: blueviolet;
+}
+.container{
+    max-width: 400px;
+}
+::placeholder{
+color:#fff !important;
+}
+input[type=text]:focus{
+    box-shadow: black;
+}
+
+input[type=text],input[type=text]:focus{
+color: #fff;
+border: none;
+max-width: 400px;
+background: rgb(159, 21, 159);
+}
+.todos li{
+    color: #fff;
+    background-color: rgb(176, 119, 230);
+}
+.delete{
+    cursor: pointer;
+}
+ul{
+    height: 300px;
+    overflow-x: auto;
+}
+
+  *::-webkit-scrollbar {
+    width: 7px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #ae07cf;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #7e089f;
+    border-radius: 10px;
+    border: 0px solid #000000;
+  }
+  .filtered{
+    display: none !important;
+  }
